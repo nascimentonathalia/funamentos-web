@@ -14,7 +14,7 @@ let assunto = document.querySelector("#assunto")
 let nomeOk = false
 let emailOk = false
 let assuntoOk = false
-let mapa = document.querySelector()
+let mapa = document.querySelector("#mapa")
 
 nome.style.width = "100%"
 email.style.width = "100%"
@@ -86,7 +86,7 @@ function mapaZoom(){
 }
 
 function mapaNormal(){
-    pa.style.width = "400px"
+    mapa.style.width = "400px"
     mapa.style.height = "250px"
 
 }
